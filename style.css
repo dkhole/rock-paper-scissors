@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(102, 157, 179);
+    font-family: 'Permanent Marker', cursive;
+}
+
+#wrapper {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgb(240, 246, 247);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+#player-score {
+    position: relative;
+    top: 65px;
+    right: 180px;
+    color: rgb(102, 157, 179);
+}
+
+#comp-score {
+    position: relative;
+    /*top: -30px;*/
+    top: -130px;
+    left: 180px;
+    color: rgb(217, 81, 78);
+}
+
+.score {
+    font-size: 5rem;
+}
+
+input {
+    height: 70px;
+    width: 80px;
+    margin: 100px 25px 25px 25px;
+    padding: 5px;
+}
+
+input:hover {
+    border: solid;
+    border-radius: 12px;
+    border-color: rgb(217, 81, 78);
+}
+
+#original-text {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    color: rgb(217, 81, 78);
+}
+
+.text {
+    /*position: relative;
+    top: -175px;*/
+    margin: 40px 0px;
+}
